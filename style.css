@@ -1,0 +1,56 @@
+/* TaskCloud — estilos */
+body {
+    background: #f5f7fb;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+.task-card {
+    border-left: 4px solid #6c757d;
+    transition: box-shadow .15s ease;
+}
+.task-card:hover {
+    box-shadow: 0 .25rem .75rem rgba(0,0,0,.08);
+}
+.task-card.priority-alta   { border-left-color: #dc3545; }
+.task-card.priority-media  { border-left-color: #fd7e14; }
+.task-card.priority-baja   { border-left-color: #198754; }
+
+.task-card.status-completada {
+    opacity: 0.65;
+}
+.task-card.status-completada .task-title {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.task-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.task-meta {
+    font-size: 0.85rem;
+    color: #6c757d;
+}
+
+.priority-badge {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 4rem 1rem;
+    color: #6c757d;
+}
+.empty-state .icon {
+    font-size: 4rem;
+    opacity: 0.3;
+}
