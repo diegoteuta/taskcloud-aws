@@ -13,5 +13,5 @@ http://taskcloud-alb-2044196625.us-east-1.elb.amazonaws.com
 - AWS Secrets Manager
 
 ## Autores
-- Diego Teuta
+- Diego Fernando Teuta Henao
 - Luis Santiago Osorio Ortiz
