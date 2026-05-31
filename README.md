@@ -18,8 +18,7 @@ http://taskcloud-alb-2044196625.us-east-1.elb.amazonaws.com
 ## Estructura
 - `app/` — Código fuente PHP de TaskCloud
 - `scripts/` — Scripts user-data para EC2
-- `docs/` — Informe final PDF y fuente LaTeX
-
+- `docs/` — Informe final PDF y presupuesto
 ## Autores
 - Diego Fernando Teuta Henao
 - Luis Santiago Osorio Ortiz
